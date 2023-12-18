@@ -1,4 +1,4 @@
-'''import cv2 as cv
+import cv2 as cv
 import numpy as np
 
 # 加载图像
@@ -58,11 +58,11 @@ img_blur = cv.GaussianBlur(img, (3, 3), 1)
 img_log = cv.Laplacian(img_blur, cv.CV_64F)
 cv.imshow('Log ', np.abs(img_log))
 cv.waitKey(0)
-cv.destroyAllWindows()'''
+cv.destroyAllWindows()
 
 
 
-'''import cv2 as cv
+import cv2 as cv
 import numpy as np
 
 img = cv.imread('shuzi\dog.jpg', 0)
@@ -116,13 +116,13 @@ for i in range(1, h - 1):
 
 cv.imshow('result', img_edge)
 cv.waitKey(0)
-cv.destroyAllWindows()'''
+cv.destroyAllWindows()
 
 
 
 
 
-'''import cv2 as cv
+import cv2 as cv
 import numpy as np
 
 # 读入灰度图像
@@ -150,7 +150,7 @@ if lines is not None:
 # 显示结果
 cv.imshow('Line Detection Result', img)
 cv.waitKey(0)
-cv.destroyAllWindows()'''
+cv.destroyAllWindows()
 
 
 import cv2 as cv
